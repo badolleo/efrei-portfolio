@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Playfair+Display:wght@400;700&family=Nunito:wght@400;700&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -33,7 +34,21 @@
 }
 
 @theme {
+  /* colors */
+  --color-main-background: #F9FAFF;
+  --color-main-yellow: #FDC435;
+  --color-font-big-title: #25282B;
+  --color-font-paragraph: #828282;
+  --color-card-background: #FFFFFF;
   
+  /* shadows */
+  --shadow-card : 0px 6px 64px 0px #7090B01A;
+
+  /* fonts */
+  --font-main-title-font: Poppins, sans-serif;
+  --font-medium-title-font: Playfair Display;
+  --font-small-title-font: Playfair Display;
+  --font-paragraph-font: Nunito sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
