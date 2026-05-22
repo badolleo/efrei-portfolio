@@ -39,6 +39,11 @@ h3 {
   color: var(--color-font-big-title);
 }
 
-#root {
-  padding: 0 1.5rem;
+body {
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
 }

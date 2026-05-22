@@ -12,7 +12,7 @@ export default function ProjectCard({ projectTitle, projectDescription, projectI
     img.src = projectImage;
   }, [projectImage]);
 
-  const isReversed = id % 2 === 0;
+  const isReversed = id % 2 !== 0;
 
   return (
     <div className={`relative bg-card-background rounded-2xl shadow-sm w-full flex overflow-hidden ${isReversed ? "flex-row-reverse" : ""}`}>

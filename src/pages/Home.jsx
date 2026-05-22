@@ -5,7 +5,7 @@ import Projects from '../components/Projects'
 
 export default function Header() {
   return (
-    <div className="home-container pt-15 flex flex-col items-start gap-6">
+    <div className="home-container pt-15 px-[1.5rem] flex flex-col items-start gap-6">
         <div className="absolute top-0 right-0 -z-1">
             <img src={logo} alt="tache jaune" className="max-w-[250px]"/>
         </div>
