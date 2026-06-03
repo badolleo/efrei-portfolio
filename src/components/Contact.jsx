@@ -2,7 +2,7 @@ export default function ContactComponent() {
     return (
         <div className="flex flex-col gap-4">
             <div>
-                <h2 className="text-2xl text-center font-bold font-[Playfair Display]">Contact</h2>
+                <h2 className="text-2xl xl:text-[40px] text-center font-bold font-[Playfair Display]">Contact</h2>
                 <div className="w-[15vw] h-[2px] bg-main-yellow mx-auto my-2"></div>
             </div>
             <form action="" className="relative flex flex-col gap-4 mx-4">
