@@ -18,9 +18,9 @@ export default function Footer() {
     `">
         <Contact/>
         <div className="flex justify-center gap-4">
-            <img src={instagram_icon} alt="Instagram" />
-            <img src={linkedin_icon} alt="LinkedIn" />
-            <img src={mail_icon} alt="Mail" />
+            <img src={instagram_icon} alt="Instagram" className="w-5 h-5 xl:w-12 xl:h-12" />
+            <img src={linkedin_icon} alt="LinkedIn" className="w-5 h-5 xl:w-12 xl:h-12" />
+            <img src={mail_icon} alt="Mail" className="w-5 h-5 xl:w-12 xl:h-12" />
         </div>
         <div className="text-center font-nunito text-sm text-gray-600">
             Léo Badol, 2026

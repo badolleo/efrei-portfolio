@@ -18,8 +18,8 @@ export default function Header() {
             mx-[1.5rem] xl:mx-[3rem]
         ">
             <div className="
-                w-[490px] 
-                flex flex-col 
+                w-full xl:w-[490px]
+                flex flex-col
                 gap-2 xl:gap-4
             ">
                 <p className="

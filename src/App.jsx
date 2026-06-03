@@ -1,27 +1,30 @@
-import { useState } from 'react'
+import { lazy, Suspense } from 'react'
 import './App.css'
 import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import Home from './pages/Home'
-import About from './pages/About'
-import Contact from './pages/Contact'
-import Projects from './pages/Projects'
-import ProjectDetail from './pages/ProjectDetail'
+
+const Home = lazy(() => import('./pages/Home'))
+const About = lazy(() => import('./pages/About'))
+const Contact = lazy(() => import('./pages/Contact'))
+const Projects = lazy(() => import('./pages/Projects'))
+const ProjectDetail = lazy(() => import('./pages/ProjectDetail'))
+const NotFound = lazy(() => import('./pages/NotFound'))
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <Header/>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/project" element={<ProjectDetail />} />
-      </Routes>
+      <Suspense fallback={null}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/project" element={<ProjectDetail />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </Suspense>
       <Footer/>
     </>
   )
