@@ -42,6 +42,14 @@ h3 {
 body {
   overflow-y: scroll;
   scrollbar-width: none; /* Firefox */
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 body::-webkit-scrollbar {

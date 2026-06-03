@@ -1,25 +1,25 @@
 {
     "projects": [
-            {
-                    "id": 1,
-                    "title": "Project 1",
-                    "description": "Short description of project 1.",
-                    "images": "/path/to/image1.jpg",
-                    "link": ""
-            },
-            {
-                    "id": 2,
-                    "title": "Project 2",
-                    "description": "Short description of project 2.",
-                    "images": "/path/to/image2.jpg",
-                    "link": ""
-            },
-            {
-                    "id": 3,
-                    "title": "Project 3",
-                    "description": "Short description of project 3.",
-                    "images": "/path/to/image3.jpg",
-                    "link": ""
-            }
+        {
+                "id": 1,
+                "title": "Project 1",
+                "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "images": "/path/to/image1.jpg",
+                "link": ""
+        },
+        {
+                "id": 2,
+                "title": "Project 2",
+                "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "images": "/path/to/image2.jpg",
+                "link": ""
+        },
+        {
+                "id": 3,
+                "title": "Project 3",
+                "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "images": "/path/to/image3.jpg",
+                "link": ""
+        }
     ]
 }

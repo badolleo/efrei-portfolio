@@ -1,4 +1,4 @@
-export default function Contact() {
+export default function ContactComponent() {
     return (
         <div className="flex flex-col gap-4">
             <div>

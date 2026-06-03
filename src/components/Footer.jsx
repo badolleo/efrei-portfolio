@@ -7,7 +7,15 @@ import footer from '../assets/footer.svg'
 
 export default function Footer() {
   return (
-    <footer className="relative font-header font-medium text-sm flex flex-col justify-items-center justify-center pt-4 pb-20 mx-[1.5rem] gap-6">
+    <footer className="`
+        relative 
+        font-header 
+        font-medium 
+        text-sm flex flex-col justify-items-center justify-center 
+        pt-4 
+        pb-20
+        gap-6
+    `">
         <Contact/>
         <div className="flex justify-center gap-4">
             <img src={instagram_icon} alt="Instagram" />
@@ -15,10 +23,10 @@ export default function Footer() {
             <img src={mail_icon} alt="Mail" />
         </div>
         <div className="text-center font-nunito text-sm text-gray-600">
-            Léo, 2026
+            Léo Badol, 2026
         </div>
-        <div className="absolute bottom-0 -left-6 -right-6 -z-10">
-            <img src={footer} alt="" className="w-full"/>
+        <div className="absolute bottom-0 left-1/2 -translate-x-1/2 -z-10 w-screen">
+            <img src={footer} alt="" className="block w-full"/>
         </div>
     </footer>
   )
