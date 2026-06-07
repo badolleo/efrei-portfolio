@@ -3,6 +3,7 @@ import './App.css'
 import { Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
 import LayoutNoFooter from './components/LayoutNoFooter'
+import ProtectedRoute from './components/ProtectedRoute'
 
 const Home = lazy(() => import('./pages/Home'))
 const About = lazy(() => import('./pages/About'))
@@ -11,6 +12,7 @@ const Projects = lazy(() => import('./pages/Projects'))
 const ProjectDetail = lazy(() => import('./pages/ProjectDetail'))
 const NotFound = lazy(() => import('./pages/NotFound'))
 const Login = lazy(() => import('./pages/Login'))
+const Admin = lazy(() => import('./pages/Admin'))
 
 function App() {
   return (
@@ -24,8 +26,9 @@ function App() {
           <Route path="/project" element={<ProjectDetail />} />
         </Route>
         <Route element={<LayoutNoFooter />}>
-          <Route path="/login" element={<Login />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/admin" element={<ProtectedRoute><Admin /></ProtectedRoute>} />
         </Route>
       </Routes>
     </Suspense>

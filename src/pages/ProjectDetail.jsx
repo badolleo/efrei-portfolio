@@ -1,12 +1,13 @@
 import { useSearchParams, Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
-import data from '../config/projects.json'
+import { useProjects } from '../context/ProjectsContext'
 import defaultImage from '../assets/default_image.jpg'
 
 export default function ProjectDetail() {
     const [searchParams] = useSearchParams()
     const id = parseInt(searchParams.get('id'))
-    const project = data.projects[id]
+    const { projects } = useProjects()
+    const project = projects[id]
 
     const [url, setUrl] = useState(defaultImage)
 

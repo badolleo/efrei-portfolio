@@ -1,0 +1,18 @@
+{
+        "messages": [
+                {
+                        "id": 1,
+                        "name": "Example Name",
+                        "email": "example@example.com",
+                        "message": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                        "date": "06/06/2026"
+                },
+                {
+                        "id": 2,
+                        "name": "Badol",
+                        "email": "badolleo@gmail.com",
+                        "message": "Bonjour je suis un simple message de text",
+                        "date": "06/06/2026"
+                }
+        ]
+}

@@ -1,25 +1,32 @@
 {
-    "projects": [
-        {
-                "id": 1,
-                "title": "Project 1",
-                "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "images": "/path/to/image1.jpg",
-                "link": ""
-        },
-        {
-                "id": 2,
-                "title": "Project 2",
-                "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "images": "/path/to/image2.jpg",
-                "link": ""
-        },
-        {
-                "id": 3,
-                "title": "Project 3",
-                "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "images": "/path/to/image3.jpg",
-                "link": ""
-        }
-    ]
+        "projects": [
+                {
+                        "id": 1,
+                        "title": "CSV visualizer",
+                        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                        "images": "/path/to/image1.jpg",
+                        "link": ""
+                },
+                {
+                        "id": 2,
+                        "title": "RPLidar scanning",
+                        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                        "images": "/path/to/image2.jpg",
+                        "link": ""
+                },
+                {
+                        "id": 3,
+                        "title": "Project 3",
+                        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                        "images": "/path/to/image3.jpg",
+                        "link": ""
+                },
+                {
+                        "id": 4,
+                        "title": "test project",
+                        "description": "this is juste a test project to see if the append of a new projects works from the backoffice",
+                        "images": "/path/to/image4.jpg",
+                        "link": ""
+                }
+        ]
 }
